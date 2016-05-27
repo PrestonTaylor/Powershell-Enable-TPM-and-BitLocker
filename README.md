@@ -4,7 +4,8 @@ This tool will clear/reset and enable your TPM and enable Bitlocker to use the T
 
 During the intial encryption it will save a copy of the recovery key which would then be uploaded in the logs and then deleted. 
 
-# If you run it as a login script you may want to hide the powershell window. This can be easily done by using a VBS to call the powershell file like so.
+
+If you run it as a login script you may want to hide the powershell window. This can be easily done by using a VBS to call the powershell file like so.
 
 command = "powershell.exe -nologo -command C:\corp\bitlocker\bitlocker.ps1"
 set shell = CreateObject("WScript.Shell")
