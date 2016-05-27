@@ -7,6 +7,8 @@ During the intial encryption it will save a copy of the recovery key which would
 
 If you run it as a login script you may want to hide the powershell window. This can be easily done by using a VBS to call the powershell file like so.
 
+```
 command = "powershell.exe -nologo -command C:\corp\bitlocker\bitlocker.ps1"
 set shell = CreateObject("WScript.Shell")
 shell.Run command,0
+```
