@@ -67,7 +67,7 @@ try
     $_.Exception.Message
     Stop-Transcript
     $wshell = New-Object -ComObject Wscript.Shell
-    $wshell.Popup("Error at line:" + $_.InvocationInfo.ScriptLineNumber + "`nContact helpdesk for assistance 877.678.2743 `n" + $_.Exception.Message,0,"OK",0x0)
+    $wshell.Popup("Error at line:" + $_.InvocationInfo.ScriptLineNumber + "`nContact helpdesk for assistance 000.000.0000 `n" + $_.Exception.Message,0,"OK",0x0)
     & c:\corp\bitlocker\LogUpload.ps1
     Exit
     
